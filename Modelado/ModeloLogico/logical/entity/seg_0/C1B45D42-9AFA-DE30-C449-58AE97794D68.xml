@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1B45D42-9AFA-DE30-C449-58AE97794D68" name="OWNER">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>963BE33F-0CB4-C1D6-39DF-F84DB186D6C3</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DB2DE954-F178-7A3D-C2E0-50E5DD53E3AF">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>7C766673-4B2D-0991-B32F-5997B4CDD70B</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="09EFF0B7-E1B7-3531-63BB-5B7A64274AA6">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>7BB1C383-A1C0-9256-344D-DF9555B086B6</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="ECA50E10-DDA5-D90D-65B7-CE3B47A8DC0E">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>66FE7E8F-D15B-0C50-9348-46340B324321</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="D0C50A85-7C50-15B0-7A83-FEE724E6C63B">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>48BC8953-4D21-BF4A-6754-C3BE4889B65D</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="12D172DB-0133-0925-A7AE-CC20A4F4F767">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>AC84CB62-5092-9B52-B2F0-7DC017FD1A88</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="6ABBA7F3-78B3-690B-B19B-86C51C261B55">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>E05C4A4E-BF65-A10E-3EAD-7CD0CB5C667B</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="3C4AAD43-D312-F9AA-9A13-B294E499FB9E">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>18B471D1-91FB-3CB5-8ECB-6D3A37E8EE4B</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="35472F37-97B6-6AFE-05DA-A48990EC0C50">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 13:11:22 UTC</createdTime>
+<generatorID>FA118CE8-102B-3091-D7BD-4E4188558CA9</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<referedAttribute>5359DD1B-6707-9ADB-DC14-4355B9364A15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F058AF9C-E68A-3CCF-33AA-C7DF38E437A4" name="OWNER PK">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>891F0BE3-26AE-1EB5-5193-C8F0D2B678DE</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB2DE954-F178-7A3D-C2E0-50E5DD53E3AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

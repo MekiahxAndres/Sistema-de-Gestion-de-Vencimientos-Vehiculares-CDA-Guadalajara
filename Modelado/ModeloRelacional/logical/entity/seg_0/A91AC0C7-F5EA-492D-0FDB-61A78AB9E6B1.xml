@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A91AC0C7-F5EA-492D-0FDB-61A78AB9E6B1" name="NOTIFICATION">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>8E349B62-C6F9-C1A8-90D8-E31B91C6CED8</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="10302183-8C73-D194-9351-3331FE4CAB65">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>8506C1B3-86E6-1A60-8629-B4C1B12918AE</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scheduled_at" id="10F0BC8A-9925-34A4-192D-DC42F94DF9B6">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>F5B126BA-C7B4-1561-273A-966794424132</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sent_at" id="8E78B7D9-D94D-1692-D612-09915D14CD7F">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>A1FB35B6-8064-FFC3-2EE4-49B61684A0FB</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reason" id="060BAA1D-872F-2DF8-E025-4A709466E29F">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>CC48416F-FC6C-EB91-9E2A-0389111F4E28</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="send_status" id="0B471341-BB90-43AA-A09B-8DBC60846F77">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>B9003359-75E6-8A36-F76B-A002733D93BC</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="message_body" id="CEB06DD7-3F53-98AF-E238-7C36ECA8F211">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>1A45B786-4F84-3A81-81DB-6BE428563508</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D43FB1A6-1AC2-D98B-03B9-729A333BE160">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 13:31:27 UTC</createdTime>
+<generatorID>9F951192-42C9-A0DF-456B-2A68CF31C55F</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<referedAttribute>51476F7F-7029-4CBD-EE49-A7F447D3CCBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B8D4220-ED49-AD07-1F9F-71347C349F8A" name="NOTIFICATION PK">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>755F3165-669B-9ADE-D297-C44ECD4CA94B</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10302183-8C73-D194-9351-3331FE4CAB65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

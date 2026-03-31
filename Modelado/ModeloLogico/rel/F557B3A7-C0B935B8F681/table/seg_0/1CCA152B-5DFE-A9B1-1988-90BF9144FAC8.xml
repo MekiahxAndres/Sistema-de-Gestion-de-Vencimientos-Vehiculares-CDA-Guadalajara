@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CCA152B-5DFE-A9B1-1988-90BF9144FAC8" name="TRANSIT_AGENCIES">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>6436BB67-533A-8439-3BF1-8DC23BE4F101</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<ordsAlias>transit_agency</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="580E9717-792A-561A-DEFF-30164D24FA70">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>044587A6-803A-EEE2-332E-4B8C2DF6BC92</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="3E52F51C-24A7-0C06-653D-A1B5E089AEBD">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>40770ADF-8607-92F1-D129-7A65D3E2B448</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="0491EC3E-59C6-0EBF-2F42-D0A5091EA083">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>8DAF3E71-E772-988C-7FAE-E9682042BEC8</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="39C513E8-4201-453E-F483-EF4AC055383A">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>36EE90AE-213B-3D6A-3AC9-6DFD541C96FC</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95320927-CE18-85D3-0145-6E84E892FDF4" name="TRANSIT_AGENCY_PK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>801BFA44-112D-B28F-7F64-9BB0DD6B0CBB</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="580E9717-792A-561A-DEFF-30164D24FA70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

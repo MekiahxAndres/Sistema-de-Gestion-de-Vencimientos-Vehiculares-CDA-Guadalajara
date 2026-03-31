@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4ADECB19-8BCF-E490-531C-34014490BCE1" containerWithKeyObject="5D04837F-CA78-D4D8-A0E1-039EBE6F2E39" localFKIndex="C3D5F67D-F9E2-A3C0-6505-9E6165D40AB6" name="TRANSIT_PROPERTY">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>D04CB624-41C2-6014-8585-06C098B628A3</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<referredTableLongName>TRANSIT_AGENCIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1CCA152B-5DFE-A9B1-1988-90BF9144FAC8</referredTableID>
+<keyObject>95320927-CE18-85D3-0145-6E84E892FDF4</keyObject>
+<referredKeyID>95320927-CE18-85D3-0145-6E84E892FDF4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

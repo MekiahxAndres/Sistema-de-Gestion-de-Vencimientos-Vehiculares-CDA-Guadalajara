@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E61C37F-50EC-6D78-9887-11F1E761AE30" name="RTM">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>DC001895-E641-40C5-FB11-26893B525BF7</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3FF29897-A480-A317-6B34-5897B136AC7D">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>51476F7F-7029-4CBD-EE49-A7F447D3CCBF</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1FEC0F5-1E43-82D9-1EF6-DA98905DA733" referredColumn="71934433-1E50-074A-E3E5-C8C287D0B104"/>
+</associations>
+</Column>
+<Column name="certificate_number" id="BA727F07-B7CA-C618-6B69-0D3A457009F3">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>0FFF384E-91D2-3B81-F52B-A96270CCAA23</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inspection_result" id="F8B21233-492D-2B2E-0F15-CDBC3B1C394B">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>79C42684-527D-E859-3AFC-8B9B369D90B8</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1639B2FB-7542-77C0-EDBC-99C0524947CF" name="RTM_PK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>1EA5D531-ADD8-EFF6-81FF-2F749D8958A1</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FF29897-A480-A317-6B34-5897B136AC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6276BB63-F3FD-CCB3-D62E-E0FB17F71E80" name="RTM_PKv1">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>4565A379-1444-7FBB-F6CA-64555DC1B975</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="41D0821A-AEFF-E2EB-4727-937D355AAF6C" name="Hierarchy_2">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>9FA46B9A-7502-BE66-5767-898E4605592E</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FF29897-A480-A317-6B34-5897B136AC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

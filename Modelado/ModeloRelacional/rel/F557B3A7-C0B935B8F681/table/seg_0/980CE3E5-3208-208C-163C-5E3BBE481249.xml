@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="980CE3E5-3208-208C-163C-5E3BBE481249" name="INSURERS_TAXES">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<ordsAlias>relation_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TAX_id" id="B2CD7EFD-573A-8C09-7803-A90EC5EE276C">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E791555-3491-ADA6-F76A-921F20A7F3BF" referredColumn="00A6DC32-ADDD-2758-F75B-ACF7A6EA087B"/>
+</associations>
+</Column>
+<Column name="INSURER_id" id="783E122B-4CCB-6F8A-B9D0-F626BC94EDD3">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D898D3D-DE53-9DAA-A0AC-5C45FEFAF4A7" referredColumn="5AE4ABD3-2E77-CEBA-6213-816F4F4738DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E43C90C-E91D-DB36-E4D8-B399771EFB73" name="Relation_20_PK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2CD7EFD-573A-8C09-7803-A90EC5EE276C"/>
+<colUsage columnID="783E122B-4CCB-6F8A-B9D0-F626BC94EDD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF513906-39DE-4BD6-4E9C-F4D7CBDBBC4A" name="TAX">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>1B91FC3F-79DE-1085-B3E8-DC957C067D97</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2CD7EFD-573A-8C09-7803-A90EC5EE276C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0370ACBB-DA4A-D11A-7AB2-52761435834B" name="INSURER_TAX">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>1B91FC3F-79DE-1085-B3E8-DC957C067D97</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="783E122B-4CCB-6F8A-B9D0-F626BC94EDD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

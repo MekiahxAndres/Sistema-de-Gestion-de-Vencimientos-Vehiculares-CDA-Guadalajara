@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="192666AA-640D-2251-01C4-2F14EE9DB2BE" name="PROPERTY_CARD">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>552BCA11-A411-8595-7542-CDFA365B5CC1</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BC45CFC3-8AE3-AC8D-84D2-D68C8D9197D1">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>BCCD0F50-80B9-B4B9-B172-371DD28AAA04</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liscense_number" id="BACB9EC5-908A-8998-C108-2A147D7CB83A">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>B1A317BE-C201-AA3E-A863-1CE9D30FA8AE</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="issue_date" id="9DEF217F-0142-E743-69AB-1D55A4432109">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>C2745E58-96B3-8C1C-1E54-6E35231AD79B</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="4C265912-E177-6211-3EBF-2D0955561551">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>94D972A2-44D8-C1FE-71B7-BB778C7921F8</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observations" id="A8B37F3D-99A5-85D4-9295-09C8FE80CE40">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>A85F6C5A-A79A-CA15-8E37-08B612FB76AC</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="document_version_int" id="498837CB-054F-D070-8309-AE0039044B2F">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>8459D497-C0F1-43DD-422D-457C93A2EDC6</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plate" id="1D759B1C-B810-37F8-A05A-5BE6F7914B66">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 12:31:16 UTC</createdTime>
+<generatorID>E4EA8F6B-D45A-6B63-0AC2-E9CE38A05F17</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<referedAttribute>77894AB5-9FCB-D217-1058-5A0CC9AD5545</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="995CB502-7ACE-D243-E699-EC24A3753226">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 13:20:54 UTC</createdTime>
+<generatorID>66340F3B-10DC-5654-0915-B0F4C7F05DBB</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<referedAttribute>DB2DE954-F178-7A3D-C2E0-50E5DD53E3AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="B5E295E9-9C2C-4797-EAF2-011D442C141F">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 13:24:28 UTC</createdTime>
+<generatorID>D04CB624-41C2-6014-8585-06C098B628A3</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<referedAttribute>044587A6-803A-EEE2-332E-4B8C2DF6BC92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="493BA724-24C4-EB7F-9C24-10EB3BCF41BC" name="PROPERTY_CARD PK">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>A1B2895E-EF2B-0B94-3D90-7060F93C7582</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC45CFC3-8AE3-AC8D-84D2-D68C8D9197D1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EF968970-389C-574D-9DAA-4D4E9AFB3C50" name="Key_2">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 13:02:04 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<newElementsIDs>BACB9EC5-908A-8998-C108-2A147D7CB83A</newElementsIDs>
+<usedAttributes>
+<attributeRef>BACB9EC5-908A-8998-C108-2A147D7CB83A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46949C8E-8C20-4E96-6C81-B5B3363A4E03" containerWithKeyObject="41D65CA8-0FE4-5F80-3E55-FE0A7F5AE27D" localFKIndex="D306658D-6BF0-D84F-F94B-3581F255EFC3" name="SOAT_INSURER">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>07F2DBBA-E076-C575-F9D7-D52CAB3DFB71</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<referredTableLongName>INSURERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>285BF11C-CFA7-7D55-D9BC-AEF68DE10C80</referredTableID>
+<keyObject>5001D662-A769-C4B4-5E5F-682BD20A8524</keyObject>
+<referredKeyID>5001D662-A769-C4B4-5E5F-682BD20A8524</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC36634E-8332-9CA1-EE54-5F1EFA7263CC" name="NOTIFICATIONS_OWNERS">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<ordsAlias>notification_owner</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOTIFICATION_id" id="A2B1E561-C3AA-A924-4C0F-77F910DE98AD">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5D0F121-65EF-5E0A-BEFB-6EB3FA3137B3" referredColumn="A37D133E-6426-AA62-4CC7-9E5141D4B88A"/>
+</associations>
+</Column>
+<Column name="OWNER_id" id="9F4E92F3-C8CE-6D86-EE38-C2937EC78085">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15D8D4E1-8ED0-8743-13B2-073BC44405A3" referredColumn="023C4F1D-74C3-D73A-90CF-E92DCB70DBC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CBA24A3-A17A-5CAE-25BD-64FAE5A80198" name="NOTIFICATION_OWNER_PK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2B1E561-C3AA-A924-4C0F-77F910DE98AD"/>
+<colUsage columnID="9F4E92F3-C8CE-6D86-EE38-C2937EC78085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A521CAF5-E278-33F5-7E0E-822E4F29810C" name="NOTIFICATION_OWNER_NOTIFICATION_FK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>9780EA75-CCC1-EFCD-FA3B-E28B3A74B4EC</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2B1E561-C3AA-A924-4C0F-77F910DE98AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CFC7B47-3DC0-74A7-CDFC-7D32A3D681A3" name="NOTIFICATION_OWNER_OWNER_FK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>9780EA75-CCC1-EFCD-FA3B-E28B3A74B4EC</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F4E92F3-C8CE-6D86-EE38-C2937EC78085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

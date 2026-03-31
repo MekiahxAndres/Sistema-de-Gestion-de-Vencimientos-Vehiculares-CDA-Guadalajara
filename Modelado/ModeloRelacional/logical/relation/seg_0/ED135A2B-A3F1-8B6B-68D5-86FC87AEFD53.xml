@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VEHICLE_DOCUMENT" directorySegmentName="seg_0" id="ED135A2B-A3F1-8B6B-68D5-86FC87AEFD53">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<importedID>05ADDD3A-D8FE-5A5E-88EF-1744B5C465F5</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<sourcePk>1FC0E234-03ED-8A5F-F3BD-BF7B1D69BBCF</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget>belongs_to</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E97A2D31-67A8-01FC-69F9-25ED03100E1F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1A2E9640-6399-7F4F-8013-01F95A1C0E3F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

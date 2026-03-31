@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3B6BD8B-6595-1A99-2154-67035BEEC22E" name="VEHICLES_SERVICES">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<ordsAlias>vehicle_service</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERVICE_id" id="D82DB5D4-C725-D599-D10B-A727DB9C6565">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84DBF577-5BBF-26E9-082E-9DF3E4303DC5" referredColumn="80808BAC-1599-639E-4A96-2471C3A99408"/>
+</associations>
+</Column>
+<Column name="VEHICLE_plate" id="D81013B3-CCD1-A6C7-F1AF-0A7EF3F5CF97">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F020DB19-DA21-FAB9-B3B0-E0180AD32EC5" referredColumn="40DED87F-D399-85B9-7C14-8E45459F0650"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00A7A1A6-8E1D-A01B-5AFC-154227327272" name="VEHICLE_SERVICE_PK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D82DB5D4-C725-D599-D10B-A727DB9C6565"/>
+<colUsage columnID="D81013B3-CCD1-A6C7-F1AF-0A7EF3F5CF97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCE7B90D-6361-05C7-C3E2-7053EFAE2F49" name="VEHICLE_SERVICE_SERVICE_FK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>1E604CED-15D4-8691-A452-6563FE1F7B0D</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D82DB5D4-C725-D599-D10B-A727DB9C6565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C750B78-CB37-C0FB-1767-17873339D879" name="VEHICLE_SERVICE_VEHICLE_FK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>1E604CED-15D4-8691-A452-6563FE1F7B0D</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D81013B3-CCD1-A6C7-F1AF-0A7EF3F5CF97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

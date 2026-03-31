@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1FEC0F5-1E43-82D9-1EF6-DA98905DA733" containerWithKeyObject="2E61C37F-50EC-6D78-9887-11F1E761AE30" localFKIndex="41D0821A-AEFF-E2EB-4727-937D355AAF6C" name="Hierarchy_2">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>9FA46B9A-7502-BE66-5767-898E4605592E</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<referredTableLongName>DOCUMENTS</referredTableLongName>
+<arc>62BAC0AF-F295-AB2A-D854-CAEFB32812C2</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4AB52664-7F59-ACE1-9536-4403F134B356</referredTableID>
+<keyObject>5CBE238D-851E-9FDD-278E-170D237A8099</keyObject>
+<referredKeyID>5CBE238D-851E-9FDD-278E-170D237A8099</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

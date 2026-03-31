@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41D65CA8-0FE4-5F80-3E55-FE0A7F5AE27D" name="SOAT">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>2FC4B42F-E78C-D9C5-8AF1-17C48BCF1476</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8A4BD295-E348-CE32-8C49-77F8EA2C8F13">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>51476F7F-7029-4CBD-EE49-A7F447D3CCBF</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2663DFA-5BB7-6BF5-12AA-E65DF748D0D5" referredColumn="71934433-1E50-074A-E3E5-C8C287D0B104"/>
+</associations>
+</Column>
+<Column name="police_number" id="629B21BA-5065-349D-77DC-E57B5CAC8F11">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>22DABDBD-91B4-01ED-8C8A-92E13DB2BA6D</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSURER_id" id="840C0602-2D32-18D4-07D0-33FFD1F9AEDF">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>EF197D20-FE2F-9F82-003C-719D1C11DAAC</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46949C8E-8C20-4E96-6C81-B5B3363A4E03" referredColumn="5AE4ABD3-2E77-CEBA-6213-816F4F4738DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93A40412-C642-2714-FEE3-A53CFFD2A83A" name="SOAT_PK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>1EA5D531-ADD8-EFF6-81FF-2F749D8958A1</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4BD295-E348-CE32-8C49-77F8EA2C8F13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA8759C2-8941-C8DF-BC9B-2673B17E590A" name="SOAT_PKv1">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>36E0C8A6-7BBC-7D08-4BE8-0F5F3A3924CB</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="65E2EB8B-F005-7103-5AC7-5EB088129563" name="Hierarchy_1">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>15892807-F062-C9FD-95A3-9E82FD179100</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4BD295-E348-CE32-8C49-77F8EA2C8F13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D306658D-6BF0-D84F-F94B-3581F255EFC3" name="SOAT_INSURER">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>07F2DBBA-E076-C575-F9D7-D52CAB3DFB71</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="840C0602-2D32-18D4-07D0-33FFD1F9AEDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

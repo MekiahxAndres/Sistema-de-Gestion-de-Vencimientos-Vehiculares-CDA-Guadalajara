@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FC4B42F-E78C-D9C5-8AF1-17C48BCF1476" name="SOAT">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>539738A5-1136-620A-B703-C04ED5FED4C7</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>1A2E9640-6399-7F4F-8013-01F95A1C0E3F</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="police_number" id="22DABDBD-91B4-01ED-8C8A-92E13DB2BA6D">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>D4D81FF6-E171-5C02-E890-D22E2AD48E3A</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="EF197D20-FE2F-9F82-003C-719D1C11DAAC">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<generatorID>07F2DBBA-E076-C575-F9D7-D52CAB3DFB71</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>1C5E8F34-554A-BABD-3C67-8BB0E4E09C1C</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<referedAttribute>793F585B-EE2F-8767-C286-564DCB908B99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36E0C8A6-7BBC-7D08-4BE8-0F5F3A3924CB" name="SOAT PK">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>A4E93F20-7B1C-525A-CAD0-AE360B8DAB6C</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

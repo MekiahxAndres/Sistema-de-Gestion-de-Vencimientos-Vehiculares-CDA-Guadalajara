@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AB52664-7F59-ACE1-9536-4403F134B356" name="DOCUMENTS">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>1A2E9640-6399-7F4F-8013-01F95A1C0E3F</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<ordsAlias>document</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="71934433-1E50-074A-E3E5-C8C287D0B104">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>51476F7F-7029-4CBD-EE49-A7F447D3CCBF</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="issue_date" id="25DC1C4B-1CD2-6F63-98B4-A068C4A16572">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>D2AFF592-90EE-6A8D-50D7-88A035179C71</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiry_date" id="96A2C2D3-70FC-28E0-47B0-9456FD61046C">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>F155B5B8-DB9F-35D5-4B0A-BBE6E8DD8110</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="1214068B-598E-FE42-3BCA-B8AD3DC31596">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>432E92A2-B63F-0114-3910-FDD5F053C5A7</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="98F89CA4-A9FA-91FF-8C20-2A64EF528B7C">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>EAF9F3FC-0270-17EB-8614-72B282A678E1</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICLE_plate" id="AD9213F0-072D-5623-6180-1AE38C7347C3">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>58BA9171-BCDC-9A4D-36AA-29AFB1C46EB9</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F927945-0F26-17C7-115F-8E065C4A2D3F" referredColumn="40DED87F-D399-85B9-7C14-8E45459F0650"/>
+</associations>
+</Column>
+<Column name="SERVICE_id" id="E206D29B-195E-DB1B-D177-C32407C3F85E">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>6BD2928D-2186-7F53-E5CE-D75B59A4F973</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CC297CC-3B1A-5808-45C0-70878D3BE04D" referredColumn="80808BAC-1599-639E-4A96-2471C3A99408"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CBE238D-851E-9FDD-278E-170D237A8099" name="DOCUMENT_PK">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>1EA5D531-ADD8-EFF6-81FF-2F749D8958A1</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71934433-1E50-074A-E3E5-C8C287D0B104"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C574BE97-AA86-9314-AB51-7B42B940F8BD" name="DOCUMENT__IDX">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>747C0952-8F78-422A-0AA3-9019B0F7A4D9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E206D29B-195E-DB1B-D177-C32407C3F85E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DACC16A2-AF2A-CE78-8B53-46452CE5FC98" name="SERVICE_DOCUEMNT">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>747C0952-8F78-422A-0AA3-9019B0F7A4D9</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E206D29B-195E-DB1B-D177-C32407C3F85E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9485A9CB-7DAA-A4E3-FDBA-A85E7E30BE53" name="VEHICLE_DOCUMENT">
+<createdBy>Andres</createdBy>
+<createdTime>2025-09-18 16:47:25 UTC</createdTime>
+<generatorID>ED135A2B-A3F1-8B6B-68D5-86FC87AEFD53</generatorID>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD9213F0-072D-5623-6180-1AE38C7347C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

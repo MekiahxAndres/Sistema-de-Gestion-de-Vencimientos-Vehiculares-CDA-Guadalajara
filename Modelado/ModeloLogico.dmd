@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModeloLogico" id="ACFB62FC-DBE4-B448-285E-F179CA8C0EEB" version="3.5">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:36:59 UTC</createdTime>
+<ownerDesignName>Correcion_Proyecto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ACFB62FC-DBE4-B448-285E-F179CA8C0EEB</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4D9F5FE3-FB70-4CA2-0BBE-F23984C3EE86">
+<designStoragePath>C:\Users\Alejandro\Downloads\Proyecto (1)\Proyecto\CDALogical</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

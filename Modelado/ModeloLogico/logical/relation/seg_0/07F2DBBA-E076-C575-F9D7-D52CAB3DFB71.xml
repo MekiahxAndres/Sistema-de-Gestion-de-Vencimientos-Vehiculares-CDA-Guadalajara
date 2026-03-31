@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SOAT_INSURER" directorySegmentName="seg_0" id="07F2DBBA-E076-C575-F9D7-D52CAB3DFB71">
+<createdBy>Alejandro</createdBy>
+<createdTime>2025-08-25 01:40:51 UTC</createdTime>
+<ownerDesignName>ModeloLogico</ownerDesignName>
+<importedID>3D11546D-848C-0AC3-74E1-82F1901FE018</importedID>
+<engineerTo>
+<item key="0FA6DD7D-BCD0-9B85-11AB-28CF66CE44CD" value="true"/>
+<item key="F557B3A7-AD2D-73E5-E748-C0B935B8F681" value="true"/>
+</engineerTo>
+<sourcePk>36E0C8A6-7BBC-7D08-4BE8-0F5F3A3924CB</sourcePk>
+<targetPk>DD04B169-D6DC-0DCA-40BA-FC61AC8F7ADF</targetPk>
+<identifying>false</identifying>
+<nameOnSource>issued_by</nameOnSource>
+<nameOnTarget>issues</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2FC4B42F-E78C-D9C5-8AF1-17C48BCF1476</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>51583A85-0884-0DBA-615B-C093D03349B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
